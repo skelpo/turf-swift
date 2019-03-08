@@ -3,6 +3,10 @@ import Foundation
 public struct CLLocationCoordinate2D {
     let latitude: Double
     let longitude: Double
+    init(latitude:Double, longitude: Double) {
+        self.latitude = latitude
+        self.longitude = longitude
+    }
 }
 public typealias CLLocationDirection = Double
 public typealias CLLocationDistance = Double
