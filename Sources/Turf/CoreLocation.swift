@@ -3,7 +3,7 @@ import Foundation
 public struct CLLocationCoordinate2D {
     let latitude: Double
     let longitude: Double
-    init(latitude:Double, longitude: Double) {
+    public init(latitude:Double, longitude: Double) {
         self.latitude = latitude
         self.longitude = longitude
     }
